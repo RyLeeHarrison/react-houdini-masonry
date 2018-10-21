@@ -1,0 +1,41 @@
+{
+  "name": "react-houdini-masonry",
+  "license": "MIT",
+  "version": "0.1.0",
+  "private": false,
+  "author": "RyLee Harrison, <ryleeharrison@protonmail.com>",
+  "description": "masonry layout with houdini css and react.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyLeeHarrison/react-houdini-masonry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyLeeHarrison/react-houdini-masonry/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "./"
+}
