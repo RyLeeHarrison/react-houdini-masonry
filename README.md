@@ -1,7 +1,7 @@
 # react-houdini-masonry
 Responsive masonry layout with houdini css and react.
 
-Try the [demo](https://ryleeharrison.github.io/auto-es5-to-es7-editor/)
+Try the [demo](https://ryleeharrison.github.io/react-houdini-masonry/)
 
 ```sh
 git clone https://github.com/RyLeeHarrison/react-houdini-masonry
