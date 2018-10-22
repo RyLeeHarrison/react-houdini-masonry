@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 
 import './App.css';
+
 import Masonry from './Masonry';
+
+import Api from './Api/Api';
 
 const images = [
   'https://images.unsplash.com/photo-1539979295193-ce3e38c97cd9?auto=format&fit=crop&w=800&q=60',
@@ -65,6 +68,13 @@ class App extends Component {
           padding={20}
           columns='auto'
         />
+
+        <section className="App-section">
+          <p>Api Example</p>        
+        </section>
+
+        <Api q='react.js' maxResults={15} />
+
       </div>
     );
   }
